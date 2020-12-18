@@ -8,7 +8,7 @@ export const useForm = (initialValues) => {
     const handleChange = e => {
         setTodoItem(e.target.value);
     }
-    const submitHandler = e => {
+    const submitHandler = e =>{
         e.preventDefault();
         setTodoItem('')
 
